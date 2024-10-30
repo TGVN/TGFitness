@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@5581">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@4043">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@8377">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+									<div class="box01">
+													<nav aria-label="breadcrumb" class="breadcrumb">
+								  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+								    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+								   		&#10070;
+								      <a itemprop="item" href="index.html">
+								        <span itemprop="name">Trang chủ</span>
+								      </a>
+								      <meta itemprop="position" content="1" />
+								    </li>
+								    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+								      <a itemprop="item" href="thucdon.php">
+								        <span itemprop="name">Thực đơn</span>
+								      </a>
+								      <meta itemprop="position" content="2" />
+								    </li>
+								    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+								      <a itemprop="item" href="thucdon.php@khoahoc_id=375#">
+								        <span itemprop="name">THỰC ĐƠN 7 NGÀY DETOX CƠ THỂ </span>
+								      </a>
+								      <meta itemprop="position" content="3" />
+								    </li>
+								  </ol>
+								</nav>
+								<h1 class="tit_01">THỰC ĐƠN 7 NGÀY DETOX CƠ THỂ </h1><br>
+								<div class="slide_thucdon">
+								    								                <div><img src="img/upload/20241010134611.png"></div>
+								                								</div>
+					            <table class="tbl01" width="100%" cellpadding="0" cellspacing="0">
+					            	<tr>
+					            		<td width="80"><strong>Mục tiêu</strong></td>
+					            		<td>MENU 7 NGÀY DETOX CƠ THỂ ĐÀO THẢI MỠ THỪA & ĐỘC TỐ, CHỐNG LẠI VIỆC BỊ CHỮNG CÂN</td>
+					            	</tr>
+					            	<tr>
+					            		<td><strong>Chế độ</strong></td>
+					            		<td>Detox, Low-Carb</td>
+					            	</tr>
+					            </table><br>
+					            <div class="txt_01">- Trung bình 1200–1300 kcal mỗi ngày. Tất cả các món ăn được cân bằng giữa protein (25%), carbohydrate (50%), chất béo (25%) và giàu chất xơ, đảm bảo cơ thể luôn có đủ năng lượng.<div>- Thực đơn phân bổ thành 4 bữa ăn trong ngày, để ổn định đường huyết, duy trì cảm giác no lâu và tránh ăn vặt không cần thiết. </div><div>- Protein nạc từ ức gà, cá hồi, thịt heo nạc và đậu hũ giúp duy trì cơ bắp, tăng cảm giác no</div><div>- Carbohydrate phức hợp từ gạo lứt và bánh mì nguyên cám duy trì mức năng lượng ổn định, tránh tăng đột ngột đường huyết và ngăn ngừa tích tụ mỡ.</div><div>- Rau xanh như cải xanh, bông cải xanh và cà rốt giàu chất chống oxy hóa, hỗ trợ quá trình tiêu hóa và thải độc tự nhiên của cơ thể.</div><div>- Chất béo lành mạnh từ dầu olive và dầu thực vật cung cấp năng lượng cần thiết, không làm tăng cholesterol xấu, đồng thời hỗ trợ hấp thu các vitamin tan trong dầu.</div></div><br>
+					            <div class="danhsach_monan">
+					            	<table width="100%" cellpadding="0" cellspacing="0">
+						            														<tr>
+														<td style="padding-left: 15px"><span class="span_stt">1</span>Ngày 1: Bữa Sáng Bánh Mì Sữa Hạt</td>
+														<td width="100" style="font-weight: 300" class="txt_center">315,0 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=413">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">2</span>Ngày 1: Bữa Phụ Sáng Sữa Chua</td>
+														<td width="100" style="font-weight: 300" class="txt_center">126,0 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=414">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">3</span>Ngày 1: Bữa Trưa Cơm Lứt Tôm Thịt & Táo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">394,2 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=415">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">4</span>Ngày 1: Bữa Tối Cơm Lứt Thịt Heo & Rau Luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">396,8 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=416">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">5</span>Ngày 2: Bữa Sáng Bún Thịt Bò Cà Chua</td>
+														<td width="100" style="font-weight: 300" class="txt_center">466,6 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=417">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">6</span>Ngày 2: Bữa Phụ Sáng Ổi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">57,0 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=418">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">7</span>Ngày 2: Bữa Trưa Cơm Lứt Bò & Rau luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">491,9 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=419">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">8</span>Ngày 2: Bữa Tối Ngô Luộc & Ổi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">249,2 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=420">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">9</span>Ngày 3: Bữa Sáng Bánh Mì Trứng Ốp La Rau Củ & Sữa tươi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">549,5 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=421">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">10</span>Ngày 3: Bữa Phụ Sáng Táo Tây</td>
+														<td width="100" style="font-weight: 300" class="txt_center">72,0 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=422">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">11</span>Ngày 3: Bữa Trưa Cơm Lứt Gà & Rau Củ Luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">358,5 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=423">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">12</span>Ngày 3: Bữa Tối Cơm Lứt Cá & Salad</td>
+														<td width="100" style="font-weight: 300" class="txt_center">323 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=424">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">13</span>Ngày 4: Bữa Sáng Bún Thịt Gà</td>
+														<td width="100" style="font-weight: 300" class="txt_center">224,7 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=425">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">14</span>Ngày 4: Bữa Sáng Phụ Sữa chua</td>
+														<td width="100" style="font-weight: 300" class="txt_center">#N/A kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=426">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">15</span>Ngày 4: Bữa Trưa Cơm Lứt Cá Kho Rau Luộc & Chuối</td>
+														<td width="100" style="font-weight: 300" class="txt_center">598,4 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=427">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">16</span>Ngày 4: Bữa Tối Cơm Lứt Trứng Hấp Thịt & Su Su Luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">381,4 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=428">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">17</span>Ngày 5: Bữa Sáng Bánh Mì Trứng Luộc & Dưa Leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">364,3 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=429">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">18</span>Ngày 5: Bữa Sáng Phụ Khoai Lang Luộc & Sữa Chua</td>
+														<td width="100" style="font-weight: 300" class="txt_center">137,3 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=430">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">19</span>Ngày 5: Bữa Trưa Cơm Lứt Bầu Nấu Tôm & Cam</td>
+														<td width="100" style="font-weight: 300" class="txt_center">283,5 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=431">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">20</span>Ngày 5: Bữa Tối Cơm Lứt Gà Nấm Su Su Luộc & Bưởi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">430,7 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=432">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">21</span>Ngày 6: Bữa Sáng Bún Cá</td>
+														<td width="100" style="font-weight: 300" class="txt_center">327,5 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=433">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">22</span>Ngày 6: Bữa Sáng Phụ Lê</td>
+														<td width="100" style="font-weight: 300" class="txt_center">63,0 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=434">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">23</span>Ngày 6: Bữa Trưa Cơm Lứt Bò Rau Luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">368,8 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=435">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">24</span>Ngày 6: Bữa Tối Cơm Cá Hấp Rau Luộc & Thanh Long</td>
+														<td width="100" style="font-weight: 300" class="txt_center">497,0 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=436">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">25</span>Ngày 7: Bữa Sáng Cháo Yến Mạch</td>
+														<td width="100" style="font-weight: 300" class="txt_center">400,7 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=437">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">26</span>Ngày 7: Bữa Phụ Sáng Thanh Long & Sữa Chua</td>
+														<td width="100" style="font-weight: 300" class="txt_center">129,3 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=438">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">27</span>Ngày 7: Bữa Trưa Cơm Lứt Thịt Heo Xào Đậu & Rau Luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">408,5 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=439">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">28</span>Ngày 7: Bữa Tối Cơm Lứt Thịt Heo Rau Luộc & Đu Đủ</td>
+														<td width="100" style="font-weight: 300" class="txt_center">342,0 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=440">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																		            </table>
+					            </div>
+											</div>
+						</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", "a[action=timhieuthem]", function(e) {
+				e.preventDefault();
+				var khoahoc_id = $(this).attr('khoahoc_id');
+				$('#timhieuthem .content').html('');
+                $.ajax({
+                    url: 'post.php',
+                    type: 'POST',
+                    data: 'timhieuthem='+khoahoc_id,
+                    success: function (response) {
+                    	console.log(response);
+                    	$('#timhieuthem .content').html(response);
+                    	$('#timhieuthem').show();
+                    	$('body').css('overflow','hidden');
+                    },
+                    error: function () {
+                    }
+                });
+			});
+			$(document).on( "click", ".close_timhieuthem", function(e) {
+				$('body').css('overflow','auto');
+				$('#timhieuthem').hide();
+			});
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+			$(document).on( "click", ".close_frame", function(e) {
+                $('#play_youtube').html('');
+                $('#play_youtube').hide();
+			});
+			phantrang();
+			function phantrang(){
+			    var itemsPerPage = 3; // Số khóa học trên mỗi trang
+			    var $items = $('.box_khoahoc'); // Chọn tất cả các khóa học
+			    var numItems = $items.length; // Đếm tổng số khóa học
+			    var numPages = Math.ceil(numItems / itemsPerPage); // Tính tổng số trang
+
+			    // Ẩn tất cả các khóa học, chỉ hiển thị các khóa học của trang đầu tiên
+			    $items.hide().slice(0, itemsPerPage).show();
+
+			    // Tạo các nút phân trang
+			    $('#pagination').pagination({
+			        items: numItems,
+			        itemsOnPage: itemsPerPage,
+			        cssStyle: 'light-theme',
+			        prevText: '❮', // Tùy chỉnh nút "Prev"
+			        nextText: '❯', // Tùy chỉnh nút "Next"
+
+			        onPageClick: function (pageNumber) {
+			            // Ẩn tất cả các khóa học và chỉ hiển thị các khóa học của trang được chọn
+			            var start = (pageNumber - 1) * itemsPerPage;
+			            var end = start + itemsPerPage;
+			            $items.hide().slice(start, end).show();
+			            $('body,html').animate({scrollTop:$('#list_giaovien').offset().top}, 300);
+			            $('.slide_list').slick('refresh');
+			        }
+			    });
+			}
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_list').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					arrows: true
+                });
+                $('.slide_thucdon').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>

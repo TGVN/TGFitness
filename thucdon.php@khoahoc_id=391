@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHEFIT</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css@3751">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css@5307">
+	<link rel="stylesheet" type="text/css" href="css/style_main.css@9736">
+	<body>
+	<div class="container">
+		<header id="header" class="header">
+	<div class="top_header container">
+		<table width="100%" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<a href="index.html">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.3103 1.77586C11.6966 1.40805 12.3034 1.40805 12.6897 1.77586L20.6897 9.39491L23.1897 11.7759C23.5896 12.1567 23.605 12.7897 23.2241 13.1897C22.8433 13.5896 22.2103 13.605 21.8103 13.2241L21 12.4524V20C21 21.1046 20.1046 22 19 22H14H10H5C3.89543 22 3 21.1046 3 20V12.4524L2.18966 13.2241C1.78972 13.605 1.15675 13.5896 0.775862 13.1897C0.394976 12.7897 0.410414 12.1567 0.810345 11.7759L3.31034 9.39491L11.3103 1.77586ZM5 10.5476V20H9V15C9 13.3431 10.3431 12 12 12C13.6569 12 15 13.3431 15 15V20H19V10.5476L12 3.88095L5 10.5476ZM13 20V15C13 14.4477 12.5523 14 12 14C11.4477 14 11 14.4477 11 15V20H13Z" fill="#9b5e6e"/></svg>
+						</span> 
+						Home
+					</a>
+				</td>
+				<td style="text-align: right;">
+					<a href="quiz">
+						<span class="home_icon">
+							<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 14V7C20 5.34315 18.6569 4 17 4H7C5.34315 4 4 5.34315 4 7V17C4 18.6569 5.34315 20 7 20H13.5M20 14L13.5 20M20 14H15.5C14.3954 14 13.5 14.8954 13.5 16V20" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 8H16" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 12H12" stroke="#9b5e6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+						</span>
+						Body Quiz
+					</a>
+					<span class="ngancach">|</span> 
+												<a href="login">
+								<span class="home_icon">
+									<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13 3C13 2.44772 12.5523 2 12 2C11.4477 2 11 2.44772 11 3V12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12V3ZM8.6092 5.8744C9.09211 5.60643 9.26636 4.99771 8.99839 4.5148C8.73042 4.03188 8.12171 3.85763 7.63879 4.1256C4.87453 5.65948 3 8.61014 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 8.66747 19.1882 5.75928 16.5007 4.20465C16.0227 3.92811 15.4109 4.09147 15.1344 4.56953C14.8579 5.04759 15.0212 5.65932 15.4993 5.93586C17.5942 7.14771 19 9.41027 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12C5 9.3658 6.45462 7.06997 8.6092 5.8744Z" fill="#9b5e6e"/></svg>
+								</span>
+								Đăng nhập
+							</a>
+									</td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="main_header">
+		<ul class="clearfix">
+			<li><a href="khoahoc">Khóa học</a></li>
+			<li><a href="thucdon">Thực đơn</a></li>
+			<li><a href="huanluyenvien">Giáo viên</a></li>
+			<li><a href="sanpham">Dụng cụ</a></li>
+			<li><a href="thucpham">Thực phẩm</a></li>
+			<li><a href="blog">Blog</a></li>
+		</ul>
+	</div>
+</header>
+									<div class="box01">
+													<nav aria-label="breadcrumb" class="breadcrumb">
+								  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+								    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+								   		&#10070;
+								      <a itemprop="item" href="index.html">
+								        <span itemprop="name">Trang chủ</span>
+								      </a>
+								      <meta itemprop="position" content="1" />
+								    </li>
+								    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+								      <a itemprop="item" href="thucdon.php">
+								        <span itemprop="name">Thực đơn</span>
+								      </a>
+								      <meta itemprop="position" content="2" />
+								    </li>
+								    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+								      <a itemprop="item" href="thucdon.php@khoahoc_id=391#">
+								        <span itemprop="name">THỰC ĐƠN 30 NGÀY TĂNG CƠ GIẢM MỠ</span>
+								      </a>
+								      <meta itemprop="position" content="3" />
+								    </li>
+								  </ol>
+								</nav>
+								<h1 class="tit_01">THỰC ĐƠN 30 NGÀY TĂNG CƠ GIẢM MỠ</h1><br>
+								<div class="slide_thucdon">
+								    								                <div><img src="img/upload/20241019230449.png"></div>
+								                								</div>
+					            <table class="tbl01" width="100%" cellpadding="0" cellspacing="0">
+					            	<tr>
+					            		<td width="80"><strong>Mục tiêu</strong></td>
+					            		<td>Tăng Cơ, Giảm Mỡ, Cắt Nét Cơ</td>
+					            	</tr>
+					            	<tr>
+					            		<td><strong>Chế độ</strong></td>
+					            		<td>Tăng Cường Chất Đạm, Hạn Chế Chất Béo Xấu, Cân Bằng Tinh Bột</td>
+					            	</tr>
+					            </table><br>
+					            <div class="txt_01">Tổng năng lượng hàng ngày: 1200-1400 kcal<div>Tỷ lệ dinh dưỡng:</div><div>- Protein: 30-40%</div><div>- Lipid: 20-30%</div><div>- Carbohydrate: 40-50%</div><div>Tỷ lệ dinh dưỡng này được thiết kế nhằm tối ưu hóa quá trình xây dựng cơ bắp và giảm mỡ. Lượng protein cao (~110g/ ngày) sẽ hỗ trợ phục hồi và phát triển cơ bắp sau các buổi tập, trong khi lipid và carbohydrate cung cấp năng lượng cần thiết cho các hoạt động hàng ngày và quá trình tập luyện.</div><div>Cấu trúc bữa ăn: Mỗi ngày sẽ bao gồm 5 bữa ăn (3 bữa chính và 2 bữa phụ). Việc chia nhỏ bữa ăn như vậy giúp duy trì mức năng lượng ổn định, thúc đẩy trao đổi chất và giảm thiểu cảm giác thèm ăn giữa các bữa chính.</div><div>Thực phẩm ưu tiên: Thực đơn tập trung vào các nguồn thực phẩm giàu protein từ cả thực vật và động vật, đồng thời hạn chế các loại chất béo không cần thiết. Những thực phẩm này không chỉ cung cấp dinh dưỡng mà còn giúp duy trì cảm giác no lâu hơn, hỗ trợ hiệu quả trong quá trình tập luyện và giảm mỡ.</div><div>Lưu ý riêng thực đơn này: </div><div>- Ăn càng nhạt càng tốt</div><div>- Không nên ăn nhiều hơn lượng rau ghi trong thực đơn vì nếu ăn quá nhiều rau, có thể cảm thấy no trước khi hấp thụ đủ protein và calo cần thiết cho quá trình xây dựng cơ bắp.</div><div>- Không ăn quá định lượng thịt/cá trong thực đơn vì ăn nhiều quá sẽ có nguy cơ tích mỡ nếu cơ thể không chuyển hoá được.</div><div>- Không thay thế cơm trong thực đơn bằng khoai hay mì</div><div></div><div></div><div></div><div></div></div><br>
+					            <div class="danhsach_monan">
+					            	<table width="100%" cellpadding="0" cellspacing="0">
+						            														<tr>
+														<td style="padding-left: 15px"><span class="span_stt">1</span>Ngày 1: Bữa Sáng Yến mạch ăn cùng sữa chua</td>
+														<td width="100" style="font-weight: 300" class="txt_center">288 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=745">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">2</span>Ngày 1: Bữa Phụ Trứng luộc và cà chua bi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">212 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=746">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">3</span>Ngày 1: Bữa Trưa Cơm cá hồi áp chảo với rau sống</td>
+														<td width="100" style="font-weight: 300" class="txt_center">409 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=747">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">4</span>Ngày 1: Bữa Phụ Nước đậu đen rang không đường (chỉ uống nước)</td>
+														<td width="100" style="font-weight: 300" class="txt_center">200 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=748">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">5</span>Ngày 1: Bữa Tối Cơm ức gà nướng và rau cải xanh luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">454 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=749">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">6</span>Ngày 2: Bữa Sáng Sữa chua Hy lạp kèm bánh mỳ nguyên cám</td>
+														<td width="100" style="font-weight: 300" class="txt_center">272 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=750">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">7</span>Ngày 2: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=751">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">8</span>Ngày 2: Bữa Trưa Cơm thịt heo nướng gừng ăn kèm rau củ luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">469 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=752">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">9</span>Ngày 2: Bữa Phụ Trứng luộc ăn kèm xà lách</td>
+														<td width="100" style="font-weight: 300" class="txt_center">100 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=753">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">10</span>Ngày 2: Bữa Tối Cơm tôm luộc với đậu phụ luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">407 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=754">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">11</span>Ngày 3: Bữa Sáng Ức gà áp chảo ăn kèm rau sống</td>
+														<td width="100" style="font-weight: 300" class="txt_center">401 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=755">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">12</span>Ngày 3: Bữa Phụ Trứng gà luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">183 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=756">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">13</span>Ngày 3: Bữa Trưa Cơm thịt bò xào ớt chuông ăn kèm rau sống</td>
+														<td width="100" style="font-weight: 300" class="txt_center">417 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=757">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">14</span>Ngày 3: Bữa Phụ Dâu tây</td>
+														<td width="100" style="font-weight: 300" class="txt_center">65 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=758">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">15</span>Ngày 3: Bữa Tối Cơm cá rô phi xốt cà chua ăn kèm súp lơ xanh luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">374 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=759">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">16</span>Ngày 4: Bữa Sáng Cá hồi áp chảo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">227 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=760">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">17</span>Ngày 4: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=761">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">18</span>Ngày 4: Bữa Trưa Cơm gà nướng sả và rau cải luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">494 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=762">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">19</span>Ngày 4: Bữa Phụ Dưa leo và cà chua bi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">61 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=763">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">20</span>Ngày 4: Bữa Tối Cơm thịt lợn luộc và rau muống luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">404 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=764">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">21</span>Ngày 5: Bữa Sáng Cháo cá rô phi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">288 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=765">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">22</span>Ngày 5: Bữa Phụ Nước đậu đen rang không đường (chỉ uống nước)</td>
+														<td width="100" style="font-weight: 300" class="txt_center">200 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=766">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">23</span>Ngày 5: Bữa Trưa Cơm thịt heo áp chảo và măng tây nướng</td>
+														<td width="100" style="font-weight: 300" class="txt_center">417 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=767">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">24</span>Ngày 5: Bữa Phụ Trứng gà luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">183 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=768">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">25</span>Ngày 5: Bữa Tối Cơm cá thu nướng ăn kèm cà rốt luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">364 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=769">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">26</span>Ngày 6: Bữa Sáng Ức gà áp chảo ăn kèm rau sống</td>
+														<td width="100" style="font-weight: 300" class="txt_center">259 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=770">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">27</span>Ngày 6: Bữa Phụ Hạt điều rang</td>
+														<td width="100" style="font-weight: 300" class="txt_center">182 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=771">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">28</span>Ngày 6: Bữa Trưa Cơm thịt kho tàu rau muống luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">416 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=772">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">29</span>Ngày 6: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=773">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">30</span>Ngày 6: Bữa Tối Cơm thịt bò hấp và bông cải luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">405 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=774">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">31</span>Ngày 7: Bữa Sáng Bánh mỳ nguyên cám và trứng luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">299 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=775">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">32</span>Ngày 7: Bữa Phụ Dâu tây</td>
+														<td width="100" style="font-weight: 300" class="txt_center">65 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=776">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">33</span>Ngày 7: Bữa Trưa Cơm thịt gà nướng và rau củ luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">457 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=777">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">34</span>Ngày 7: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=778">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">35</span>Ngày 7: Bữa Tối Cơm bò xào đậu đũa và cà chua</td>
+														<td width="100" style="font-weight: 300" class="txt_center">470 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=779">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">36</span>Ngày 8: Bữa Sáng Tôm luộc và dưa leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">151 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=780">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">37</span>Ngày 8: Bữa Phụ Sữa hạt đậu nành (không đường)</td>
+														<td width="100" style="font-weight: 300" class="txt_center">84 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=781">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">38</span>Ngày 8: Bữa Trưa Cơm thịt bò nướng hành tây và rau bí luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">411 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=782">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">39</span>Ngày 8: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=783">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">40</span>Ngày 8: Bữa Tối Cơm cá thu kho gừng với rau bắp cải luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">491 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=784">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">41</span>Ngày 9: Bữa Sáng Cá rô phi nướng và táo tây</td>
+														<td width="100" style="font-weight: 300" class="txt_center">169 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=785">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">42</span>Ngày 9: Bữa Phụ Trứng luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">91 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=786">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">43</span>Ngày 9: Bữa Trưa Cơm thịt bò nướng mật ong và rau sống</td>
+														<td width="100" style="font-weight: 300" class="txt_center">466 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=787">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">44</span>Ngày 9: Bữa Phụ Dâu tây</td>
+														<td width="100" style="font-weight: 300" class="txt_center">65 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=788">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">45</span>Ngày 9: Bữa Tối Cơm trứng hấp cà chua thịt</td>
+														<td width="100" style="font-weight: 300" class="txt_center">482 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=789">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">46</span>Ngày 10: Bữa Sáng Trứng luộc và cà chua bi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">212 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=790">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">47</span>Ngày 10: Bữa Phụ Ngũ cốc yến mạch</td>
+														<td width="100" style="font-weight: 300" class="txt_center">111 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=791">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">48</span>Ngày 10: Bữa Trưa Cơm tôm hấp và rau cải thìa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">389 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=792">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">49</span>Ngày 10: Bữa Phụ Xoài chín và hạt điều</td>
+														<td width="100" style="font-weight: 300" class="txt_center">213 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=793">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">50</span>Ngày 10: Bữa Tối Cơm thịt lợn nướng và dưa leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">434 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=794">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">51</span>Ngày 11: Bữa Sáng Cá hồi nướng và bông cải xanh</td>
+														<td width="100" style="font-weight: 300" class="txt_center">200 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=795">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">52</span>Ngày 11: Bữa Phụ Bánh mỳ đen</td>
+														<td width="100" style="font-weight: 300" class="txt_center">181 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=796">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">53</span>Ngày 11: Bữa Trưa Cơm thịt gà nướng và bông cải xanh luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">459 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=797">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">54</span>Ngày 11: Bữa Phụ Nước dừa tươi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=798">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">55</span>Ngày 11: Bữa Tối Cơm thịt bò xào rau cà chua</td>
+														<td width="100" style="font-weight: 300" class="txt_center">414 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=799">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">56</span>Ngày 12: Bữa Sáng Trứng luộc và dưa leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">322 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=800">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">57</span>Ngày 12: Bữa Phụ Sữa chua Hy lạp hạt chia</td>
+														<td width="100" style="font-weight: 300" class="txt_center">195 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=801">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">58</span>Ngày 12: Bữa Trưa Cơm thịt bò nướng hành tây rau muống luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">426 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=802">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">59</span>Ngày 12: Bữa Phụ Chuối và nước dừa tươi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">109 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=803">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">60</span>Ngày 12: Bữa Tối Cơm tôm nướng và cà chua bi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">384 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=804">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">61</span>Ngày 13: Bữa Sáng Ức gà luộc và bông cải xanh luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">285 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=805">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">62</span>Ngày 13: Bữa Phụ Sữa chua Hy Lạp không đường</td>
+														<td width="100" style="font-weight: 300" class="txt_center">130 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=806">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">63</span>Ngày 13: Bữa Trưa Cơm cá kho dưa và rau cải ngọt</td>
+														<td width="100" style="font-weight: 300" class="txt_center">361 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=807">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">64</span>Ngày 13: Bữa Phụ Dưa hấu</td>
+														<td width="100" style="font-weight: 300" class="txt_center">16 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=808">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">65</span>Ngày 13: Bữa Tối Cơm thịt heo nướng sả và rau sống</td>
+														<td width="100" style="font-weight: 300" class="txt_center">477 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=809">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">66</span>Ngày 14: Bữa Sáng Trứng luộc và cà chua bi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">417 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=810">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">67</span>Ngày 14: Bữa Phụ Ngũ cốc yến mạch ăn liền</td>
+														<td width="100" style="font-weight: 300" class="txt_center">371 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=811">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">68</span>Ngày 14: Bữa Trưa Cơm thịt bò xào giá và rau sống</td>
+														<td width="100" style="font-weight: 300" class="txt_center">457 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=812">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">69</span>Ngày 14: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=813">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">70</span>Ngày 14: Bữa Tối Cơm tôm nướng và rau cải xanh</td>
+														<td width="100" style="font-weight: 300" class="txt_center">338 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=814">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">71</span>Ngày 15: Bữa Sáng Cá hấp và dưa leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">137 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=815">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">72</span>Ngày 15: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=816">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">73</span>Ngày 15: Bữa Trưa Cơm thịt gà xào sả và rau cải ngọt</td>
+														<td width="100" style="font-weight: 300" class="txt_center">470 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=817">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">74</span>Ngày 15: Bữa Phụ Sữa chua Hy Lạp không đường</td>
+														<td width="100" style="font-weight: 300" class="txt_center">130 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=818">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">75</span>Ngày 15: Bữa Tối Cơm thịt kho trứng cút và rau muống luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">465 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=819">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">76</span>Ngày 16: Bữa Sáng Cá hồi nướng và bông cải xanh luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">243 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=820">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">77</span>Ngày 16: Bữa Phụ Sữa chua Hy Lạp không đường</td>
+														<td width="100" style="font-weight: 300" class="txt_center">130 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=821">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">78</span>Ngày 16: Bữa Trưa Cơm thịt bò xào nấm và rau xà lách</td>
+														<td width="100" style="font-weight: 300" class="txt_center">423 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=822">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">79</span>Ngày 16: Bữa Phụ Dâu tây và nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">82 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=823">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">80</span>Ngày 16: Bữa Tối Cơm thịt heo áp chảo và bông cải xanh luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">419 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=824">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">81</span>Ngày 17: Bữa Sáng Bánh mỳ đen và bơ đậu phộng</td>
+														<td width="100" style="font-weight: 300" class="txt_center">266 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=825">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">82</span>Ngày 17: Bữa Phụ Táo tây</td>
+														<td width="100" style="font-weight: 300" class="txt_center">144 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=826">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">83</span>Ngày 17: Bữa Trưa Cơm cá thu nướng và rau cải thìa luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">508 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=827">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">84</span>Ngày 17: Bữa Phụ Dưa leo và cà chua bi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">61 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=828">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">85</span>Ngày 17: Bữa Tối Cơm thịt bò xào hành và rau muống luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">421 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=829">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">86</span>Ngày 18: Bữa Sáng Bắp luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">294 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=830">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">87</span>Ngày 18: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=831">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">88</span>Ngày 18: Bữa Trưa Cơm thịt gà áp chảo và bắp cải luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">465 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=832">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">89</span>Ngày 18: Bữa Phụ Sữa tươi không đường</td>
+														<td width="100" style="font-weight: 300" class="txt_center">122 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=833">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">90</span>Ngày 18: Bữa Tối Cơm cá trắm kho và dưa leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">370 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=834">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">91</span>Ngày 19: Bữa Sáng Trứng luộc và dưa leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">322 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=835">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">92</span>Ngày 19: Bữa Phụ Đậu phụ</td>
+														<td width="100" style="font-weight: 300" class="txt_center">97 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=836">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">93</span>Ngày 19: Bữa Trưa Cơm cá sốt cà chua và bắp cải luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">385 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=837">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">94</span>Ngày 19: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=838">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">95</span>Ngày 19: Bữa Tối Cơm thịt bò xào ớt chuông và sữa chua</td>
+														<td width="100" style="font-weight: 300" class="txt_center">496 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=839">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">96</span>Ngày 20: Bữa Sáng Bánh mỳ nguyên cám trứng ốp la</td>
+														<td width="100" style="font-weight: 300" class="txt_center">360 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=840">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">97</span>Ngày 20: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=841">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">98</span>Ngày 20: Bữa Trưa Cơm thịt heo luộc và rau cải</td>
+														<td width="100" style="font-weight: 300" class="txt_center">396 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=842">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">99</span>Ngày 20: Bữa Phụ Chuối chín</td>
+														<td width="100" style="font-weight: 300" class="txt_center">49 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=843">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">100</span>Ngày 20: Bữa Tối Cơm thịt gà rang và rau muống luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">456 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=844">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">101</span>Ngày 21: Bữa Sáng Trứng luộc và bánh mỳ nguyên cám</td>
+														<td width="100" style="font-weight: 300" class="txt_center">390 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=845">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">102</span>Ngày 21: Bữa Phụ Sữa chua và hạt chia</td>
+														<td width="100" style="font-weight: 300" class="txt_center">114 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=846">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">103</span>Ngày 21: Bữa Trưa Cơm thịt heo áp chảo và dưa leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">358 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=847">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">104</span>Ngày 21: Bữa Phụ Táo tây</td>
+														<td width="100" style="font-weight: 300" class="txt_center">144 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=848">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">105</span>Ngày 21: Bữa Tối Cơm thịt bò xào nấm và bông cải luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">407 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=849">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">106</span>Ngày 22: Bữa Sáng Cháo trứng vịt bắc thảo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">318 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=850">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">107</span>Ngày 22: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=851">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">108</span>Ngày 22: Bữa Trưa Cơm đậu hũ dồn thịt và đậu cove luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">520 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=852">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">109</span>Ngày 22: Bữa Phụ Táo tây</td>
+														<td width="100" style="font-weight: 300" class="txt_center">144 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=853">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">110</span>Ngày 22: Bữa Tối Cơm xá xíu dưa leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">396 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=854">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">111</span>Ngày 23: Bữa Sáng Trứng vịt lộn</td>
+														<td width="100" style="font-weight: 300" class="txt_center">218 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=855">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">112</span>Ngày 23: Bữa Phụ Ngũ cốc yến mạch ăn liền</td>
+														<td width="100" style="font-weight: 300" class="txt_center">371 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=856">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">113</span>Ngày 23: Bữa Trưa Cơm thịt heo nướng</td>
+														<td width="100" style="font-weight: 300" class="txt_center">414 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=857">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">114</span>Ngày 23: Bữa Phụ Dưa leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">16 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=858">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">115</span>Ngày 23: Bữa Tối Cơm ức gà nướng và bông cải xanh luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">475 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=859">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">116</span>Ngày 24: Bữa Sáng Ngũ cốc yến mạch và sữa tươi không đường</td>
+														<td width="100" style="font-weight: 300" class="txt_center">320 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=860">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">117</span>Ngày 24: Bữa Phụ Táo tây</td>
+														<td width="100" style="font-weight: 300" class="txt_center">144 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=861">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">118</span>Ngày 24: Bữa Trưa Cơm trứng luộc và bắp cải luộc và ruốc tôm</td>
+														<td width="100" style="font-weight: 300" class="txt_center">463 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=862">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">119</span>Ngày 24: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=863">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">120</span>Ngày 24: Bữa Tối Cơm thịt bò nướng và ớt chuông</td>
+														<td width="100" style="font-weight: 300" class="txt_center">399 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=864">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">121</span>Ngày 25: Bữa Sáng Cháo cá lóc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">293 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=865">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">122</span>Ngày 25: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=866">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">123</span>Ngày 25: Bữa Trưa Cơm cá thu nướng và rau củ luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">387 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=867">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">124</span>Ngày 25: Bữa Phụ Thanh long</td>
+														<td width="100" style="font-weight: 300" class="txt_center">47 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=868">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">125</span>Ngày 25: Bữa Tối Cơm thịt heo đậu hũ chiên không dầu và giá đỗ</td>
+														<td width="100" style="font-weight: 300" class="txt_center">480 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=869">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">126</span>Ngày 26: Bữa Sáng Cháo gà</td>
+														<td width="100" style="font-weight: 300" class="txt_center">334 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=870">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">127</span>Ngày 26: Bữa Phụ Ngũ cốc yến mạch ăn liền</td>
+														<td width="100" style="font-weight: 300" class="txt_center">371 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=871">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">128</span>Ngày 26: Bữa Trưa Cơm ruốc tôm và rau cải luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">296 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=872">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">129</span>Ngày 26: Bữa Phụ Chuối</td>
+														<td width="100" style="font-weight: 300" class="txt_center">252 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=873">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">130</span>Ngày 26: Bữa Tối Cơm thịt heo nướng và dưa leo</td>
+														<td width="100" style="font-weight: 300" class="txt_center">396 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=874">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">131</span>Ngày 27: Bữa Sáng Bánh mỳ heo quay</td>
+														<td width="100" style="font-weight: 300" class="txt_center">360 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=875">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">132</span>Ngày 27: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=876">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">133</span>Ngày 27: Bữa Trưa Cơm thịt bò xào giá và rau cải luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">402 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=877">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">134</span>Ngày 27: Bữa Phụ Chuối</td>
+														<td width="100" style="font-weight: 300" class="txt_center">252 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=878">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">135</span>Ngày 27: Bữa Tối Cơm cá kho và rau muống luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">365 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=879">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">136</span>Ngày 28: Bữa Sáng Trứng luộc và cà chua bi</td>
+														<td width="100" style="font-weight: 300" class="txt_center">417 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=880">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">137</span>Ngày 28: Bữa Phụ Chuối</td>
+														<td width="100" style="font-weight: 300" class="txt_center">252 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=881">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">138</span>Ngày 28: Bữa Trưa Cơm cá rô phi hấp gừng và bắp cải luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">422 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=882">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">139</span>Ngày 28: Bữa Phụ Táo tây</td>
+														<td width="100" style="font-weight: 300" class="txt_center">144 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=883">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">140</span>Ngày 28: Bữa Tối Cơm thịt bò nướng nấm và rau cải luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">448 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=884">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">141</span>Ngày 29: Bữa Sáng Bún cá rau cần</td>
+														<td width="100" style="font-weight: 300" class="txt_center">265 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=885">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">142</span>Ngày 29: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=886">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">143</span>Ngày 29: Bữa Trưa Cơm</td>
+														<td width="100" style="font-weight: 300" class="txt_center">190 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=887">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">144</span>Ngày 29: Bữa Trưa Thịt bò xào hành tây và rau bí luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">291 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=888">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">145</span>Ngày 29: Bữa Phụ Sữa chua Hy lạp không đường</td>
+														<td width="100" style="font-weight: 300" class="txt_center">130 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=889">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">146</span>Ngày 29: Bữa Tối Cơm cá hấp rau cải xanh luộc và thanh long</td>
+														<td width="100" style="font-weight: 300" class="txt_center">488 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=890">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">147</span>Ngày 30: Bữa Sáng Cá hồi nướng và trứng gà bông cải xanh luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">334 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=891">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">148</span>Ngày 30: Bữa Phụ Nước dừa</td>
+														<td width="100" style="font-weight: 300" class="txt_center">60 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=892">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">149</span>Ngày 30: Bữa Trưa Cơm cá ngừ và bầu luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">417 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=893">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">150</span>Ngày 30: Bữa Phụ Sữa chua Hy lạp không đường</td>
+														<td width="100" style="font-weight: 300" class="txt_center">130 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=894">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																									<tr>
+														<td style="padding-left: 15px"><span class="span_stt">151</span>Ngày 30: Bữa Tối Cơm ức gà nướng nấm và su su luộc</td>
+														<td width="100" style="font-weight: 300" class="txt_center">512 kcal</td>
+														<td><a class="btn_05" href="thucdon.php@mon_id=895">XEM NGAY</a></td>
+													</tr>
+													<tr class="tr_blank">
+														<td colspan="4">&nbsp;</td>
+													</tr>
+																		            </table>
+					            </div>
+											</div>
+						</div>
+	<div id="timhieuthem">
+		<div class="content"></div>
+		<a class="close_timhieuthem">&#215;</a>
+	</div>
+	<div id="play_youtube"></div>
+	<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.simplePagination.min.js"></script>
+<script src="js/pdf.min.js"></script>
+<br>
+<footer class="container" id="footer">
+	<div class="top_footer clearfix">
+		<a href="index.html"><img src="img/logo_footer.png" alt="" width="100%"></a>
+	</div>
+	<div class="box01">
+		<h2 class="tit_07">FITNESS FOR WOMAN</h2>
+		<div class="txt_01">Start-up giúp cho chị em phái yếu có vóc dáng đẹp & sức khỏe dẻo dai một cách tiện lợi & tiết kiệm.</div><br><br>
+		<h3 class="tit_08">CÔNG TY TNHH SHEFIT</h2>
+		<table class="list_footer">
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Văn phòng</td>
+				<td width="1">:</td>
+				<td>Khu The Sun Avenue, An Phú, Q2, TPHCM</td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Hotline</td>
+				<td width="1">:</td>
+				<td><a href="tel:0906934821">0906934821</a></td>
+			</tr>
+			<tr>
+				<td width="1">&#8226;</td>
+				<td>Email</td>
+				<td width="1">:</td>
+				<td><a href="mailto:info@shefit.vn">info@shefit.vn</a></td>
+			</tr>
+		</table><br>
+		<table class="list_footer">
+			<tr>
+				<td width="40"><a href="https://zalo.me/0906934821" target="_blank"><img src="img/zalo_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.facebook.com/shefitvn" target="_blank"><img src="img/facebook_icon.png" alt=""></a></td>
+				<td width="5">&nbsp;</td>
+				<td width="40"><a href="https://www.youtube.com/@GluteLab-LoNanDang-zl7td" target="_blank"><img src="img/youtube_icon.png" alt=""></a></td>
+			</tr>
+		</table><br>
+		<div class="copyright">
+			<a href="index.html">&copy; Ngôi Nhà Đầu Bếp 2024</a>
+		</div><br>
+	</div>
+</footer>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on( "click", "a[action=timhieuthem]", function(e) {
+				e.preventDefault();
+				var khoahoc_id = $(this).attr('khoahoc_id');
+				$('#timhieuthem .content').html('');
+                $.ajax({
+                    url: 'post.php',
+                    type: 'POST',
+                    data: 'timhieuthem='+khoahoc_id,
+                    success: function (response) {
+                    	console.log(response);
+                    	$('#timhieuthem .content').html(response);
+                    	$('#timhieuthem').show();
+                    	$('body').css('overflow','hidden');
+                    },
+                    error: function () {
+                    }
+                });
+			});
+			$(document).on( "click", ".close_timhieuthem", function(e) {
+				$('body').css('overflow','auto');
+				$('#timhieuthem').hide();
+			});
+			$(document).on( "click", ".frame_youtube", function(e) {
+				$(this).addClass('active');
+				var youtube_id = $(this).attr('youtube_id');
+                $(this).html('<iframe src="https://www.youtube.com/embed/' + youtube_id + '?autoplay=1&rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>');
+			});
+			$(document).on( "click", ".close_frame", function(e) {
+                $('#play_youtube').html('');
+                $('#play_youtube').hide();
+			});
+			phantrang();
+			function phantrang(){
+			    var itemsPerPage = 3; // Số khóa học trên mỗi trang
+			    var $items = $('.box_khoahoc'); // Chọn tất cả các khóa học
+			    var numItems = $items.length; // Đếm tổng số khóa học
+			    var numPages = Math.ceil(numItems / itemsPerPage); // Tính tổng số trang
+
+			    // Ẩn tất cả các khóa học, chỉ hiển thị các khóa học của trang đầu tiên
+			    $items.hide().slice(0, itemsPerPage).show();
+
+			    // Tạo các nút phân trang
+			    $('#pagination').pagination({
+			        items: numItems,
+			        itemsOnPage: itemsPerPage,
+			        cssStyle: 'light-theme',
+			        prevText: '❮', // Tùy chỉnh nút "Prev"
+			        nextText: '❯', // Tùy chỉnh nút "Next"
+
+			        onPageClick: function (pageNumber) {
+			            // Ẩn tất cả các khóa học và chỉ hiển thị các khóa học của trang được chọn
+			            var start = (pageNumber - 1) * itemsPerPage;
+			            var end = start + itemsPerPage;
+			            $items.hide().slice(start, end).show();
+			            $('body,html').animate({scrollTop:$('#list_giaovien').offset().top}, 300);
+			            $('.slide_list').slick('refresh');
+			        }
+			    });
+			}
+            initializeSlider();
+            function initializeSlider() {
+                $('.slide_list').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					arrows: true
+                });
+                $('.slide_thucdon').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					pauseOnHover: true,
+					dots: true,
+					arrows: true,
+					autoplay: true
+                });
+            }
+		});
+	</script>
+</body>
+</html>
